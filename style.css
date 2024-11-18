@@ -2,3 +2,35 @@
     margin: 0;
     padding: 0;
 }
+
+form{
+    width: 100%;
+    padding: 5px 10px;
+}
+
+form input{
+    all: unset;
+    border-bottom: solid 1px #333;
+    cursor: text;
+}
+
+form button {
+    all: unset;
+    padding: 2px 4px;
+    border-radius: 8px;
+    border: solid 1px #dedede;
+    cursor: pointer;
+    transition: background-color .5s, color .5s;
+}
+form button:hover{
+    background-color: #6cb2f8;
+    color: #efefef;
+}
+
+
+#card{
+    width: 260px;
+    border-radius: 12px;
+    border: solid 1px #333;
+    padding: 20px 10px;
+}

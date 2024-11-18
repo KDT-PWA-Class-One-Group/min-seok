@@ -6,8 +6,10 @@ const card = document.getElementById('card')
 submitBtn.addEventListener('click', submitEvent)
 
 function submitEvent (e) {
-    const value = filterForm.querySelector('input').value
+    const input = filterForm.querySelector('input')
+    const value = input.value
     e.preventDefault()
     if(value === '') card.style.backgroundColor = ''
     card.style.backgroundColor = value
+    input.value = ''
 }
